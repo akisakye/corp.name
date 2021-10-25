@@ -1,0 +1,8 @@
+---
+# tasks file for users
+- name: Add the user 'johnd' with a specific uid and a primary group of 'admin'
+  user:
+    name: johnd
+    comment: John Doe
+    uid: 1040
+    group: admin
