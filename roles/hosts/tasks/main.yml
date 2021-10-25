@@ -4,4 +4,4 @@
   file:
     path: /etc/foo.conf
     mode: '0644'
-    state: present
+    state: touch
